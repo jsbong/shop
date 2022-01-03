@@ -9,7 +9,7 @@ function insertCart() {
 	if (member_id == "Administrator") {
 		swal("", "관리자 권한으로는 이용하실 수 없습니다.", "warning");
 	} else if (!member_id) {
-		swal("", "비회원은 장바구니를 이 용 !!!! @#@#@하 실 수 없습니다.", "error");
+		swal("", "비회원은 장바구니를 이 용 !!!! ssss하 실 수 없습니다.", "error");
 	} else if (buy_quantity == 0) {
 		swal("", "수량을 선택해주세요", "error");
 	} else {
